@@ -217,7 +217,7 @@ figure#spinner {
     transition: 1s;
 }
 figure#spinner img {
-    width: 40%; max-width: 425px;
+    width: 45%; max-width: 450px;
     position: absolute; left: 30%;
     transform-origin: 50% 50% -500px;
     outline:1px solid transparent;
@@ -245,11 +245,15 @@ div#carousel ~ span {
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 
-
+.container{
+    background-color: #f5f5dc;
+    width: 1000px;
+    margin: auto;
+}
 
 .header{
     width: auto;
-    height: 150px;
+    height: auto;
     background-image: url(../images/HeaderImage.jpg);
 }
 .header-title{
@@ -262,7 +266,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 .main-body{
-    padding-top: 50px;
+
 }
 .main-title{
     font-size: 40px;
@@ -274,6 +278,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 .main-subtitle{
     margin-left: 100px;
+    margin-right: 100px;
     font-size: 20px;
     font-family: 'Times New Roman';
     margin-top: 30px;
