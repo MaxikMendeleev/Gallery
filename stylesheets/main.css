@@ -201,3 +201,85 @@ a:hover {
     position: relative;
     top: 1px;
 }
+
+div#carousel {
+    perspective: 1200px;
+    background: #f5f5dc;
+    font-size:0;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    margin-top: 30px;
+}
+figure#spinner {
+    transform-style: preserve-3d;
+    height: 300px;
+    transform-origin: 50% 50% -500px;
+    transition: 1s;
+}
+figure#spinner img {
+    width: 40%; max-width: 425px;
+    position: absolute; left: 30%;
+    transform-origin: 50% 50% -500px;
+    outline:1px solid transparent;
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg);
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span {
+    color: #000000;
+    margin: 10%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.6s color;
+    position: relative;
+    margin-top: -13rem;
+    border-bottom: none;
+    line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+
+
+
+.header{
+    width: auto;
+    height: 150px;
+    background-image: url(../images/HeaderImage.jpg);
+}
+.header-title{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 80px;
+    height: 120px;
+    font-family: 'monotype corsiva';
+    color: gold;
+}
+
+.main-body{
+    padding-top: 50px;
+}
+.main-title{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'courier new';
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.main-subtitle{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin-top: 30px;
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+    background-color: burlywood;
+}

@@ -6,41 +6,62 @@
     <script src="scripts/main.js"></script>
     <title>Hello</title>
 </head>
-<body>
+<body bgcolor="#f5f5dc">
     <div class="container">
         <div class="header">
+            <div class="header-title">
+                Картинная галерея "ЛИБИДО"
+            </div>
             <div id="nav">
                 <ul>
-                    <li><a href="#"><span>Dashboard</span></a></li>
-                    <li><a href="#"><span>Posts</span></a></li>
-                    <li class="dropdown"><a href="#"><span>Users</span></a>
+                    <li><a href="#"><span>На главную</span></a></li>
+                    <li class="dropdown"><a href="#"><span>Эпоха Возрождения</span></a>
                         <ul>
-                            <li><a href="#"><span>Joshua Hibbert</span></a></li>
-                            <li><a href="#"><span>Kyle Bragger</span></a></li>
-                            <li><a href="#"><span>Jack Rugile</span></a></li>
+                            <li><a href="#"><span>Леонардо Да Винчи</span></a></li>
+                            <li><a href="#"><span>Рафаэль</span></a></li>
+                            <li><a href="#"><span>Микеланжело</span></a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Settings</span></a>
+                    <li class="dropdown"><a href="#"><span>Эпоха Просвещения</span></a>
                         <ul>
-                            <li><a href="#"><span>General</span></a></li>
-                            <li><a href="#"><span>SEO</span></a></li>
-                            <li><a href="#"><span>Style</span></a></li>
-                            <li><a href="#"><span>Plugins</span></a></li>
-                            <li><a href="#"><span>Security</span></a></li>
+                            <li><a href="#"><span>Жан Батист Симеон ШАРДЕН</span></a></li>
+                            <li><a href="#"><span>Жак Луи ДАВИД</span></a></li>
+                            <li><a href="#"><span>Томас ГЕЙНСБОРО</span></a></li>
                         </ul>
-                        
-
-
                     </li>
-                    <li><a href="#"><span>View Site</span></a></li>
+                    <li class="dropdown"><a href="#"><span>Эпоха Постимпрессионизма</span></a>
+                        <ul>
+                            <li><a href="#"><span>Винсент ВАН ГОГ</span></a></li>
+                            <li><a href="#"><span>Поль ГОГЕН</span></a></li>
+                            <li><a href="#"><span>Поль СЕЗАНН</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span>Работы создателей сайта</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="main-body">
-
+            <div class="main-title">
+                типо что-то
+            </div>
+            <div class="main-subtitle">
+                типа описание чего-то
+            </div>
+            <div id=carousel>
+                <figure id=spinner>
+                    <img src=images/Микеланджело%20Всемирный%20потоп.jpg height="300px" alt="">
+                    <img src=images/Микеланджело%20Святое%20семейство.jpg height="300px" alt="">
+                    <img src=images/Микеланджело%20Сотворение%20Адама.jpg height="300px" alt="">
+                    <img src=images/Michelangelo_Pieta.jpg height="300px" alt="">
+                </figure>
+            </div>
+            <span style=float:left class=ss-icon onclick="galleryspin('-')">&lt;</span>
+            <span style=float:right class=ss-icon onclick="galleryspin('')">&gt;</span>
         </div>
         <div class="footer">
-
+            <div class="footer-text">
+                Все права защищены. Пиратство и плагиат преследуются по понятиям и все такое
+            </div>
         </div>
     </div>
 </body>
