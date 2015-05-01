@@ -337,3 +337,8 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
     font-size: 30px;
     text-align: center;
 }
+
+.work-gallery{
+    margin-top: 20px;
+}
+
